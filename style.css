@@ -64,18 +64,30 @@ li:nth-child(2n+1){
 .container{
     border: 2px solid salmon;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     height: 250px;
-    align-items: center;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
 
 }
 .box{
     border: 2px dashed teal;
-    height: 50px;
-    width: 50px;
+   
     justify-content: center;
     display: flex;
     align-items: center;
     color: crimson;
+}.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+   
+}
+nav{
+    display: flex;
+    justify-content:space-between ;
 }
