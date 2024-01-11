@@ -29,3 +29,35 @@ li:nth-child(2n+1){
     color:coral;
     font-size: x-large;
 }
+
+
+.ring{
+    position:sticky
+    top: 30px;
+    bottom: 37px;
+    z-index: 4;
+}.boy{
+    position:sticky;
+    bottom: 40px;
+    z-index: 10;
+    
+}.water{
+    position: sticky; display: flex;
+    justify-content: center;
+}
+    bottom: 33px;
+    top: 31px;
+.swim container{
+    position: relative;
+
+} .container1{
+    border: 2px solid salmon;
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    border: 2px dashed black;
+    height: 50px;
+    width: 50px;
+}
