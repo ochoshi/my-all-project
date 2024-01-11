@@ -16,3 +16,16 @@ a:visited{
     font-style: italic;
     font-size: x-large;
 }
+li:last-child{
+    color: rgb(143, 106, 13);
+    font-style: oblique;
+}
+li:nth-child(2n){
+    color:brown;
+    font-size: x-large;
+
+}
+li:nth-child(2n+1){
+    color:coral;
+    font-size: x-large;
+}
